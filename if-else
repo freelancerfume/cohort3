@@ -1,0 +1,83 @@
+Integer x = 3;
+if (x>5){
+    System.debug('x 5\'ten büyük');
+        }
+    else{
+    System.debug('x 5\'ten küçük');
+        }
+		
+		
+String name = 'ayşe';
+if (name=='fatma'){
+    System.debug('Kullanıcı bilgileri doğru');
+}else{
+        System.debug('Lütfen bilgilerinizi kontrol edin');
+    }
+	
+	
+Integer Sayi = 25;
+Integer k = math.mod(sayi, 2);
+if (k==0){
+    System.debug(Sayi+' sayı çift');
+}else {
+    System.debug(Sayi+' sayı tek');
+}
+
+
+//İki değerin de doğru olması gerek
+Integer s=1234;
+String email='info@yoursite.com';
+    if(s==852 && email=='billing@yoursite.com'){
+        System.debug('Login oldunuz başarılar');
+            }else{
+                System.debug('Lütfen bilgilerinizi kontrol edin');
+            }
+			
+			
+//Sorgu 4 koşuldan hangisine uyuyor
+Integer X=26;
+if(x<10){
+    System.debug('gelen sayı 1 basamaklı');
+}else if (x>=10 && x<100){
+    System.debug('gelen sayı 2 basamaklı');
+}else if (x>=100 && x<1000){
+    System.debug('gelen sayı 3 basamaklı');
+}else{
+    System.debug('gelen sayı 4 basamaklı ve üstü');
+}
+
+
+//Çok koşullu örnekler
+Integer yas=35;
+String e='Lise';
+if (yas>30 && e=='Lisans' || e=='Lisansüstü'){
+    System.debug('Başvurunuz kabul edildi!');
+}else{
+    System.debug('Başvurunuz reddedildi!');
+}
+
+
+//Çok koşullu örnekler
+Integer badges=1;
+Integer points=200;
+if (badges==1 && points==200){
+    System.debug('Yayy. You are Hiker now!');
+}else if(badges==100 && points==50000){
+    System.debug('Wow. Now you are Ranger');
+}else{
+    System.debug('Congrats! You are a leader now...');
+}
+
+
+//Çok koşullu örnekler
+Integer badges=100;
+Integer points=50000;
+Integer age=32;
+String grade='L';
+Integer c=2;
+if(age>30 && badges>=100 && points>=50000 && c>=2 && (grade=='L' || grade=='YL'))
+{
+    System.debug('Tebrikler. İşe alındınız!');
+}else{
+    System.debug('Üzgünüz. Başvurunuz reddedildi');
+}
