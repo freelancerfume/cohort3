@@ -1,0 +1,88 @@
+// LOOPS
+// FOR LOOP
+
+for (Integer a=0; a<=10; a++){
+    System.debug('Merhaba FOR LOOPS '+a);
+}
+
+
+
+
+Integer toplam=0;
+for (Integer a=1; a<=10; a++){
+	toplam=toplam+a;
+    System.debug('toplam değer: '+toplam);
+}
+
+
+//Integer x equals 1. While x<2, a System.debug statement displays
+//x and increments x by 1 (x++). What is the output in the logs?
+
+for (Integer x=1; x<2; x++){
+    System.debug('merhaba');
+}
+
+
+// FOR LOOP CONTINUE STATEMENT
+for (Integer t=0; t<10; t++){
+    if (t==5){
+        continue;
+    }
+    System.debug(t);
+}
+
+
+
+// FOR LOOP BREAK STATEMENT
+for (Integer t=0; t<10; t++){
+    if (t==5){
+        break;
+    }
+    System.debug(t);
+}
+
+
+
+//WHILE LOOP
+
+Integer x=1;
+while(x<5){
+    System.debug('Merhaba while döngüsü '+x);
+    x++;
+}
+
+System.debug(x);
+
+
+
+Integer a=1;
+Integer toplam=0;
+while(a<=3){
+    toplam=toplam+a;
+    System.debug(toplam);
+    a++;
+}
+
+
+//WHILE LOOP BREAK STATEMENT
+
+Integer a=1;
+while(a<=10){
+    if(a==5){
+        break;
+    }
+    System.debug(a);
+    a++;
+}
+
+
+//WHILE LOOP CONTINUE STATEMENT
+Integer a=1;
+while(a<=10){
+    if(a==5){
+        a++;
+        continue;
+    }
+    System.debug(a);
+    a++;
+}
